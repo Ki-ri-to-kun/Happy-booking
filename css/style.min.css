@@ -7,3 +7,251 @@ body,html{font-family:Avenir;font-size:16px;margin:0;padding:0}a{text-decoration
 	display: block;
 	margin-bottom: 0.2rem;
 }
+
+
+.dashboard-date {
+  position: absolute;
+  top: 23px;
+  right: 0;
+  font-size: 13px;
+  line-height: 18px;
+  color: #939CA0;
+}
+
+.dashboard-sidebar {
+  overflow: auto;
+  position: fixed;
+  width: 250px;
+  height: 100vh;
+  padding: 30px;
+}
+
+.dashboard-sidebar__header-logo {
+  display: block;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 125px;
+  height: 125px;
+  margin: 30px auto 35px auto;
+}
+
+.dashboard-sidebar__footer-logo {
+  display: block;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 89px;
+  height: 56px;
+  margin: 0 auto;
+}
+
+.dash-main-menu {
+  margin-bottom: 200px;
+}
+
+.dash-main-menu__list {
+  padding: 0;
+}
+
+.dash-main-menu__item {
+  margin-bottom: 25ypx;
+}
+
+.icon {
+  background-image: url("../img/icons.svg");
+  background-repeat: no-repeat;
+  width: 24px;
+  height: 24.75px;
+  display: inline-block;
+  position: relative;
+  top: 6px;
+  margin-right: 10px;
+}
+
+.icon-dashboard {
+  background-position: -21px -24px;
+}
+
+.icon-calendar {
+  background-position: 0 0;
+}
+
+.icon-booking {
+  background-position: -71px -24px;
+}
+
+.icon-client {
+  background-position: -46px -24px;
+}
+
+.icon-kassa {
+  background-position: -95px -24px;
+}
+
+.icon-buh {
+  background-position: -118px -24px;
+}
+
+.icon-market {
+  background-position: -22px -46px;
+}
+
+.icon-settings {
+  background-position: 0 -46px;
+}
+
+.icon-logout {
+  background-position: -48px -46px;
+}
+
+.dashboard-sidebar__footer-menu {
+  margin-bottom: 41px;
+}
+
+.dash-footer-menu__list {
+  padding: 0;
+  margin: 0;
+}
+
+.dash-footer-menu__item {
+  margin-bottom: 25px;
+}
+
+.dashboard-sidebar__footer-title {
+  margin: 0;
+}
+
+.stats {
+  padding: 0 25px;
+  margin-right: 1.88rem;
+  -ms-flex-preferred-size: 680px;
+      flex-basis: 680px;
+}
+
+.stats__header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 25px 0;
+  height: 125px;
+  margin-bottom: 30px;
+}
+
+.stats__header-item {
+  -ms-flex-preferred-size: 120px;
+      flex-basis: 120px;
+}
+
+.stats__header-item-title {
+  margin: 0;
+  font-size: 25px;
+  line-height: 34px;
+}
+
+.stats__booking {
+  height: 427px;
+  margin-bottom: 30px;
+}
+
+.stats__booking-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.stats__booking-header-title {
+  font-size: 20px;
+  line-height: 27px;
+}
+
+.stats__booking-header-amount {
+  font-size: 13px;
+  line-height: 18px;
+  color: #939CA0;
+}
+
+.stats__booking-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.stats__booking-time {
+  line-height: 22px;
+  -ms-flex-preferred-size: 50px;
+      flex-basis: 50px;
+}
+
+.stats__booking-name {
+  -ms-flex-preferred-size: 200px;
+      flex-basis: 200px;
+}
+
+.stats__booking-name-title {
+  margin: 0;
+  line-height: 22px;
+}
+
+.stats__booking-name-details {
+  font-size: 13px;
+  line-height: 18px;
+  color: #939CA0;
+}
+
+.stats__booking-description {
+  -ms-flex-preferred-size: 230px;
+      flex-basis: 230px;
+  text-align: left;
+}
+
+.stats__booking-price {
+  -ms-flex-preferred-size: 80px;
+      flex-basis: 80px;
+  font-weight: 700;
+  text-align: right;
+}
+
+.stats__diagramma-container {
+  width: 680px;
+}
+
+.stats__diagramma-image {
+  width: 100%;
+  position: relative;
+  left: -25px;
+}
+
+.dashboard-container {
+  padding: 3.75rem 1.88rem 1.88rem 250px;
+  max-width: 1440px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.news {
+  -ms-flex-preferred-size: 450px;
+      flex-basis: 450px;
+}
+
+.news__title {
+  font-size: 20px;
+  line-height: 27px;
+}
+
+.news__box-image {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+}
