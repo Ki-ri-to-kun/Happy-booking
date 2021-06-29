@@ -189,12 +189,12 @@ body,html{font-family:Avenir;font-size:16px;margin:0;padding:0}a{text-decoration
 .stats__booking-time {
   line-height: 22px;
   -ms-flex-preferred-size: 50px;
-      flex-basis: 50px;
+      flex-basis: 10.88%;
 }
 
 .stats__booking-name {
   -ms-flex-preferred-size: 200px;
-      flex-basis: 200px;
+      flex-basis: 39.52%;
 }
 
 .stats__booking-name-title {
@@ -210,7 +210,7 @@ body,html{font-family:Avenir;font-size:16px;margin:0;padding:0}a{text-decoration
 
 .stats__booking-description {
   -ms-flex-preferred-size: 230px;
-      flex-basis: 230px;
+  flex-basis: 40.32%;
   text-align: left;
 }
 
