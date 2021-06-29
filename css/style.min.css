@@ -216,7 +216,6 @@ body,html{font-family:Avenir;font-size:16px;margin:0;padding:0}a{text-decoration
 
 .stats__booking-price {
   -ms-flex-preferred-size: 80px;
-      flex-basis: 80px;
   font-weight: 700;
   text-align: right;
 }
