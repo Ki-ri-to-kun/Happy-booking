@@ -68,39 +68,39 @@ body,html{font-family:Avenir;font-size:16px;margin:0;padding:0}a{text-decoration
 }
 
 .icon-dashboard {
-  background-position: -21px -24px;
+	background-position: -24px -24px;
 }
 
 .icon-calendar {
-  background-position: 0 0;
+	background-position: 0 0;
 }
 
 .icon-booking {
-  background-position: -71px -24px;
+	background-position: -72px -24px;
 }
 
 .icon-client {
-  background-position: -46px -24px;
+	background-position: -48px -24px;
 }
 
 .icon-kassa {
-  background-position: -95px -24px;
+	background-position: -96px -24px;
 }
 
 .icon-buh {
-  background-position: -118px -24px;
+	background-position: -120px -24px;
 }
 
 .icon-market {
-  background-position: -22px -46px;
+	background-position: -24px -48px;
 }
 
 .icon-settings {
-  background-position: 0 -46px;
+	background-position: 0 -48px;
 }
 
 .icon-logout {
-  background-position: -48px -46px;
+	background-position: -48px -48px;
 }
 
 .dashboard-sidebar__footer-menu {
