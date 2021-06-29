@@ -56,51 +56,68 @@ body,html{font-family:Avenir;font-size:16px;margin:0;padding:0}a{text-decoration
   height: 50px;
 }
 
+.dash-main-menu__item--active {
+  font-weight: 800;
+}
+
+.dash-main-menu__item--active .icon {
+  background: #000;
+}
+
 .icon {
-  background-image: url("../img/icons.svg");
-  background-repeat: no-repeat;
+  background: url("../img/icons.svg") 24px 24px no-repeat;
   width: 24px;
   height: 24px;
   display: inline-block;
   position: relative;
   top: 6px;
   margin-right: 10px;
+  --bg-position: 24px 24px;
+  background-position: var(--bg-position);
 }
 
 .icon-dashboard {
-	background-position: -24px -24px;
+  --bg-position: -24px -24px;
 }
 
 .icon-calendar {
-	background-position: 0 0;
+  --bg-position: 0 0;
 }
 
 .icon-booking {
-	background-position: -72px -24px;
+  --bg-position: -72px -24px;
 }
 
 .icon-client {
-	background-position: -48px -24px;
+  --bg-position: -48px -24px;
 }
 
 .icon-kassa {
-	background-position: -96px -24px;
+  --bg-position: -96px -24px;
 }
 
 .icon-buh {
-	background-position: -120px -24px;
+  --bg-position: -120px -24px;
 }
 
 .icon-market {
-	background-position: -24px -48px;
+  --bg-position: -24px -48px;
 }
 
 .icon-settings {
-	background-position: 0 -48px;
+  --bg-position: 0 -48px;
 }
 
 .icon-logout {
-	background-position: -48px -48px;
+  --bg-position: -48px -48px;
+}
+
+.icon-mask {
+  -webkit-mask: url("../img/icons.svg") 24px 24px no-repeat;
+          mask: url("../img/icons.svg") 24px 24px no-repeat;
+  -webkit-mask-position: var(--bg-position);
+          mask-position: var(--bg-position);
+  background: #A1B3C5;
 }
 
 .dashboard-sidebar__footer-menu {
