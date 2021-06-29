@@ -65,7 +65,7 @@ body,html{font-family:Avenir;font-size:16px;margin:0;padding:0}a{text-decoration
 }
 
 .icon {
-  background: url("../img/icons.svg") 24px 24px no-repeat;
+  background: url("https://ki-ri-to-kun.github.io/happy-booking/img/icons.svg") 24px 24px no-repeat;
   width: 24px;
   height: 24px;
   display: inline-block;
@@ -113,8 +113,8 @@ body,html{font-family:Avenir;font-size:16px;margin:0;padding:0}a{text-decoration
 }
 
 .icon-mask {
-  -webkit-mask: url("../img/icons.svg") 24px 24px no-repeat;
-          mask: url("../img/icons.svg") 24px 24px no-repeat;
+  -webkit-mask: url("https://ki-ri-to-kun.github.io/happy-booking/img/icons.svg") 24px 24px no-repeat;
+          mask: url("https://ki-ri-to-kun.github.io/happy-booking/img/icons.svg") 24px 24px no-repeat;
   -webkit-mask-position: var(--bg-position);
           mask-position: var(--bg-position);
   background: #A1B3C5;
