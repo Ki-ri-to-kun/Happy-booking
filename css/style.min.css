@@ -271,11 +271,11 @@ body,html{font-family:Avenir;font-size:16px;margin:0;padding:0}a{text-decoration
   line-height: 34px;
 }
 
-.stats__booking {
+.stats__table {
   margin-bottom: 30px;
 }
 
-.stats__booking-header {
+.stats__table-head {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
