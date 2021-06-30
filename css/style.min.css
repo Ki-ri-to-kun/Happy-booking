@@ -244,8 +244,8 @@ body,html{font-family:Avenir;font-size:16px;margin:0;padding:0}a{text-decoration
 .stats {
   padding: 0 25px;
   margin-right: 1.88rem;
-  -ms-flex-preferred-size: 680px;
-      flex-basis: 625px;
+  -ms-flex-preferred-size: 58.14%;
+      flex-basis: 58.14%;
 }
 
 .stats__header {
@@ -360,8 +360,8 @@ body,html{font-family:Avenir;font-size:16px;margin:0;padding:0}a{text-decoration
 }
 
 .news {
-  -ms-flex-preferred-size: 450px;
-      flex-basis: 450px;
+  -ms-flex-preferred-size: 41.86%;
+      flex-basis: 41.86%;
 }
 
 .news__title {
