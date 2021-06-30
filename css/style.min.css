@@ -306,35 +306,35 @@ body,html{font-family:Avenir;font-size:16px;margin:0;padding:0}a{text-decoration
   -ms-flex-pack: justify;
 }
 
-.stats__booking-time {
+.stats__table-cell-time {
   line-height: 22px;
   -ms-flex-preferred-size: 50px;
       flex-basis: 10.88%;
 }
 
-.stats__booking-name {
+.stats__table-cell-name {
   -ms-flex-preferred-size: 200px;
       flex-basis: 39.52%;
 }
 
-.stats__booking-name-title {
+.stats__table-cell-name-title {
   margin: 0;
   line-height: 22px;
 }
 
-.stats__booking-name-details {
+.stats__table-cell-name-details {
   font-size: 13px;
   line-height: 18px;
   color: #939CA0;
 }
 
-.stats__booking-description {
+.stats__table-cell-description {
   -ms-flex-preferred-size: 230px;
   flex-basis: 40.32%;
   text-align: left;
 }
 
-.stats__booking-price {
+.stats__table-cell-price {
   -ms-flex-preferred-size: 80px;
   font-weight: 700;
   text-align: right;
