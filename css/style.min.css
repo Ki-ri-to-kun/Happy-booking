@@ -308,13 +308,13 @@ body,html{font-family:Avenir;font-size:16px;margin:0;padding:0}a{text-decoration
 
 .stats__table-cell-time {
   line-height: 22px;
-  -ms-flex-preferred-size: 10.88%;
-      flex-basis: 10.88%;
+  -ms-flex-preferred-size: 11%;
+      flex-basis: 11%;
 }
 
 .stats__table-cell-name {
-  -ms-flex-preferred-size: 39.52%;
-      flex-basis: 39.52%;
+  -ms-flex-preferred-size: 39%;
+      flex-basis: 39%;
 }
 
 .stats__table-cell-name-title {
@@ -329,16 +329,16 @@ body,html{font-family:Avenir;font-size:16px;margin:0;padding:0}a{text-decoration
 }
 
 .stats__table-cell-description {
-  -ms-flex-preferred-size: 40.32%;
-  flex-basis: 40.32%;
+  -ms-flex-preferred-size: 38%;
+  flex-basis: 38%;
   text-align: left;
 }
 
 .stats__table-cell-price {
-  -ms-flex-preferred-size: 9.28%;
+  -ms-flex-preferred-size: 12%;
   font-weight: 700;
   text-align: right;
-  flex-basis: 9.28%;
+  flex-basis: 12%;
 }
 
 .stats__diagramma-container {
