@@ -343,10 +343,8 @@ body,html{font-family:Avenir;font-size:16px;margin:0;padding:0}a{text-decoration
     font-size: 14px;
   }
 	
-	.row {
-		justify-content: center;
-	}
   .col {
+    text-align: center;
     width: 100%;
     -webkit-box-flex: 0;
         -ms-flex: 0 0 100%;
