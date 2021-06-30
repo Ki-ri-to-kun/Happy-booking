@@ -308,12 +308,12 @@ body,html{font-family:Avenir;font-size:16px;margin:0;padding:0}a{text-decoration
 
 .stats__table-cell-time {
   line-height: 22px;
-  -ms-flex-preferred-size: 50px;
+  -ms-flex-preferred-size: 10.88%;
       flex-basis: 10.88%;
 }
 
 .stats__table-cell-name {
-  -ms-flex-preferred-size: 200px;
+  -ms-flex-preferred-size: 39.52%;
       flex-basis: 39.52%;
 }
 
@@ -329,13 +329,13 @@ body,html{font-family:Avenir;font-size:16px;margin:0;padding:0}a{text-decoration
 }
 
 .stats__table-cell-description {
-  -ms-flex-preferred-size: 230px;
+  -ms-flex-preferred-size: 40.32%;
   flex-basis: 40.32%;
   text-align: left;
 }
 
 .stats__table-cell-price {
-  -ms-flex-preferred-size: 80px;
+  -ms-flex-preferred-size: 9.28%;
   font-weight: 700;
   text-align: right;
   flex-basis: 9.28%;
