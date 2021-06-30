@@ -287,18 +287,18 @@ body,html{font-family:Avenir;font-size:16px;margin:0;padding:0}a{text-decoration
           align-items: center;
 }
 
-.stats__booking-header-title {
+.stats__table-head-title {
   font-size: 20px;
   line-height: 27px;
 }
 
-.stats__booking-header-amount {
+.stats__table-head-amount {
   font-size: 13px;
   line-height: 18px;
   color: #939CA0;
 }
 
-.stats__booking-box {
+.stats__table-row {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
